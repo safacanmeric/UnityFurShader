@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FurAttributesMat
   m_Shader: {fileID: 4800000, guid: 2cc37fdc3639643fbb9d4125d6693c01, type: 3}
   m_ShaderKeywords: 
@@ -71,11 +72,11 @@ Material:
     - _Diffuse: 1
     - _DstBlend: 0
     - _EdgeFade: 0.66
-    - _FurDensity: 0.57
+    - _FurDensity: 0.947
     - _FurHardness: 1
-    - _FurLength: 0.04
+    - _FurLength: 0.038
     - _FurShading: 0.302
-    - _FurThinness: 5
+    - _FurThinness: 4.22
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -85,7 +86,7 @@ Material:
     - _Parallax: 0.02
     - _Reflection: 0
     - _RimPower: 3.84
-    - _Shininess: 15
+    - _Shininess: 256
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -100,3 +101,4 @@ Material:
     - _RimColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
     - _Specular: {r: 0.3490566, g: 0.33300328, b: 0.28484336, a: 1}
+  m_BuildTextureStacks: []

@@ -1,0 +1,149 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'tr' Physical Memory: 32728 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Project/UnityFurShader
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62796
+Successfully changed project path to: D:/Unity/Project/UnityFurShader
+D:/Unity/Project/UnityFurShader
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Project/UnityFurShader/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001775 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.024 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2075.
+Total: 4.832800 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.050800 ms MarkObjects: 4.552400 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/FurAttributesMat.mat
+  artifactKey: Guid(42aede4c724e94a4281c74f7bccf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FurAttributesMat.mat using Guid(42aede4c724e94a4281c74f7bccf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d87d52b5b0ba7b6e7322563bfaf1f') in 0.106732 seconds
+  Import took 0.110115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Materials/FurRimColorMat.mat
+  artifactKey: Guid(8517bd10dfe404e2ca99d00a8ec73ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FurRimColorMat.mat using Guid(8517bd10dfe404e2ca99d00a8ec73ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee62fe427d6049429057162dc2b5c6f4') in 0.013923 seconds
+  Import took 0.016677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7771.479726 seconds.
+  path: Assets/Shaders/Fur_0_2_Attributes
+  artifactKey: Guid(6ee69c49f13cf4cce856d966fefa9686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_2_Attributes using Guid(6ee69c49f13cf4cce856d966fefa9686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d337d7e692af2b06edefab9ba02ca9') in 0.006051 seconds
+  Import took 0.013953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.943496 seconds.
+  path: Assets/Shaders/Fur_0_4_RimColor/FurHelper.cginc
+  artifactKey: Guid(d40c4032bba4347058663c5fae86e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_4_RimColor/FurHelper.cginc using Guid(d40c4032bba4347058663c5fae86e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940c19c8e2a44ca35b4984b81692b74') in 0.016898 seconds
+  Import took 0.020845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010641 seconds.
+  path: Assets/Shaders/Fur_0_1_Basic/FurHelper.cginc
+  artifactKey: Guid(d9db685304a6d4ac08237d6186f65008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_1_Basic/FurHelper.cginc using Guid(d9db685304a6d4ac08237d6186f65008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d136e184d57a015af54abb887073072') in 0.002541 seconds
+  Import took 0.004529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014002 seconds.
+  path: Assets/Shaders/Fur_0_3_Force/FurHelper.cginc
+  artifactKey: Guid(cbe042696384f4b7d9d0c72262751e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_3_Force/FurHelper.cginc using Guid(cbe042696384f4b7d9d0c72262751e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bf1b388cfe741225c0598847e52ce5') in 0.003706 seconds
+  Import took 0.006401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055746 seconds.
+  path: Assets/Shaders/Fur_0_1_Basic/FurShader.shader
+  artifactKey: Guid(d4caf79e70ff845a98f6ce15c493085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_1_Basic/FurShader.shader using Guid(d4caf79e70ff845a98f6ce15c493085b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f156889fbe385219efd127204de637ce') in 0.006467 seconds
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006243 seconds.
+  path: Assets/Shaders/Fur_0_2_Attributes/FurHelper.cginc
+  artifactKey: Guid(8d7572a91acc04ae3a528d8824b5ca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_2_Attributes/FurHelper.cginc using Guid(8d7572a91acc04ae3a528d8824b5ca86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c494783360cf9cca6cce9a30868db') in 0.002927 seconds
+  Import took 0.004902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011540 seconds.
+  path: Assets/Shaders/Fur_0_2_Attributes/FurShader.shader
+  artifactKey: Guid(2cc37fdc3639643fbb9d4125d6693c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_2_Attributes/FurShader.shader using Guid(2cc37fdc3639643fbb9d4125d6693c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9b738539b1b050d3a6af9558274b44') in 0.001586 seconds
+  Import took 0.003492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004480 seconds.
+  path: Assets/Shaders/Fur_0_3_Force/FurShader.shader
+  artifactKey: Guid(7bac536579ea247b5942c67724ee6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Fur_0_3_Force/FurShader.shader using Guid(7bac536579ea247b5942c67724ee6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca9e39deb99369f0b04b373b350021b') in 0.001547 seconds
+  Import took 0.003649 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
